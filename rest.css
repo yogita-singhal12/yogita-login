@@ -18,7 +18,6 @@ body
 	
 }
 
-
 h2
 {
 	padding:0 0 20px;
@@ -76,14 +75,28 @@ h2
 	font-size: 14px;
 	
 }
-<h1> added h1 <h1>
 
+@media screen and (max-width:500px)
+{
+	.loginbox
+	{
+		max-width: 200px;
+		height:280px;
+		padding:40px 40px;
+	}	
+}
 
+h2
+{
+	padding:0 0 10px;
+	text-align: center;
+}
 
-
-
-
-
+.loginbox p
+{
+	margin-bottom:5px;
+	font-weight: bold;
+}	
 
 
 
