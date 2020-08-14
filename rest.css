@@ -1,0 +1,101 @@
+body
+{
+	background: url("rat.jpg");
+	background-size: cover;
+	font-family: sans-serif;
+}
+
+.loginbox
+{
+	position: absolute;
+	top:20%;
+	left:40%;
+	width:280px;
+	height:380px;
+	padding:20px 20px;
+	box-sizing: border-box;
+	background: rgba(0,0,0,0.5);
+	
+}
+
+
+h2
+{
+	padding:0 0 20px;
+	color:#1E90FF;
+	text-align: center;
+
+}
+
+.loginbox p
+{
+	margin-bottom:5px;
+	font-weight: bold;
+	color:#fff;
+}
+
+.loginbox input
+{
+	width:100%;
+}
+
+.loginbox input[type="text"], 
+.loginbox input[type="password"]
+{
+	border:none;
+	border-bottom:1px solid #fff;
+	background: transparent;	
+	outline:none;
+	color:darkgrey;
+	font-size: 14px;
+}
+
+.loginbox input[type="submit"]	
+{
+	text-align: center;
+	margin-top:20px;
+	margin-bottom:20px;
+	height:30px;
+	color:#fff;
+	font-size: 16px;
+	background: red;
+	cursor:pointer;
+	border: none;
+	border-radius:20px;
+}
+
+
+.loginbox input[type="submit"]:hover
+{
+	background:#efed40;
+}
+
+.loginbox a
+{
+	color:#fff;
+	font-size: 14px;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

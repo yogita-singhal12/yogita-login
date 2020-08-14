@@ -1,0 +1,40 @@
+<html>
+<title> gita </title>
+<head>
+<script type="text/javascript">
+var count=2;
+function yogi()
+{
+	var mypwd= document.form1.password.value;
+	var password="admin";
+	var myuser= document.form1.username.value;
+	var username="admin";
+	
+	if(username==myuser)
+	{
+		if(password==mypwd)
+		{
+			window.open("my.html")	;
+		}
+	}
+	else
+	{
+		alert("please enter a correct info");
+	}
+}
+</script>
+<link rel="stylesheet" href="rest.css">
+
+</head>
+<body>
+<div class="loginbox">
+	<h2>Login here</h2>
+	<form name= "form1">
+		<p>Username</p>
+		<input type="text" value="" name="username" placeholder="enter username" id="myinput">
+		<p>Password</p>
+		<input type="password" value="" name="password" placeholder="enter password" id="myinput">
+		<input type="submit" name="" value="login" onclick=yogi() >
+		<a href="#"> Forget Password </a>
+</body>
+</html>
