@@ -76,6 +76,20 @@ h2
 	font-size: 14px;
 	
 }
+@media screen and (min-width:990px)
+{
+	.login-box
+	{
+		transform:translate(80%,-50%);
+	}
+}
+@media screen and (min-width:1500px)
+{
+	.login-box
+	{
+		transform:translate(100%,-50%);
+	}
+}
 
 
 
